@@ -57,11 +57,11 @@ STRICT BEHAVIOR & RESTRICTION RULES:
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: "llama-3.3-70b-versatile",
+        model: "openai/gpt-oss-120b",
         messages: messages,
         temperature: 0.7,
         presence_penalty: 0.6,
-        max_tokens: 150
+        max_tokens: 500
       })
     });
 
